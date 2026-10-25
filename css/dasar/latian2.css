@@ -1,0 +1,25 @@
+ p{
+        max-width: 750px;
+        background-color: beige;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    h2{
+        max-width: 750px;
+        background-color: rgb(165, 165, 61);
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .isi{
+    
+      background-color: aqua;
+      
+    }
+
+    h3>span{
+        text-align:justify;
+        background-color: bisque;
+        max-width: 750px;
+    }

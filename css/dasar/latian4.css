@@ -1,0 +1,52 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.header{
+    display: flex;
+    background-color: blue;
+    padding: 10px;
+    justify-content: center;
+}
+
+.header-title{
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.header:hover{
+    background-color: blueviolet;
+    color: bisque;
+}
+
+.preview{
+    background-color: bisque;
+    width: 200px;
+    text-align: justify;
+    padding:10px;
+    margin:20px;
+    font-size: 10px;
+    text-decoration: bold;
+    
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.highlight{
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.credit{
+    height: 10px;
+}

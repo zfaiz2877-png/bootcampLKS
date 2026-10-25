@@ -1,0 +1,98 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header */
+.header {
+    background-color: #efefef;
+    padding: 20px;
+}
+
+/* Container untuk tiga kolom */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* Pengaturan kolom */
+[class*="col-"] {
+    padding: 10px;
+    width: 100%;
+}
+
+/* Menu */
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: crimson;
+    color: aliceblue;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background-color: rgb(162, 22, 50);
+}
+
+/* Konten */
+.content {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.content h2 {
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin-bottom: 15px;    
+}
+
+/* Gambar */
+.gambar img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #781a1a;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Tampilan desktop dan tablet */
+@media only screen and (min-width: 768px) {
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}

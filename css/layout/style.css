@@ -1,0 +1,52 @@
+*
+{
+    font-family: tahoma;
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+    background-color: sandybrown;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    width: 100%;
+    z-index: 2;
+    /* display: none; */
+}
+
+.kolom-konten{
+    float: left;
+    width: 600px;
+}
+
+.container{
+    position: relative;
+    top: 120px;
+    max-width: 800px;
+    z-index: 1;
+    margin:0px auto 0px auto;
+}
+
+.kolom-menu{
+    background-color: antiquewhite;
+    width: 120px;
+    height: 80px;
+    padding: 10px;
+    list-style: none;
+    float: left;
+    margin-left: 55px;
+    margin-top: 25px;
+   
+    
+}
+
+.kolom-menu>li>a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+h2,p{
+    text-align: justify;
+
+}

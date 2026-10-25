@@ -1,0 +1,107 @@
+.box1{
+    height: 250px;
+    width: 300px;
+    background-color: aquamarine;
+}
+
+.box1 p{
+    height: 75%;
+    width: 75%;
+    background-color: blanchedalmond;
+}
+
+.box2{
+    height: 100px;
+    width: 700px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box2>h2{
+    background-color: rebeccapurple;
+    width: fit-content;
+    
+}
+
+.box2>p{
+    background-color: brown;
+    max-width: 400px;
+    padding-left: 10px;
+    position: relative;
+    left: 210px;
+    bottom: 60px;
+
+}
+
+td{
+    background-color: aquamarine;
+    min-width: 150px;
+    height: 250px;
+    padding: 10px;
+}
+td.deskripsi{
+    background-color: bisque;
+}
+
+.kotak{
+    width: 80px;
+    height: 160px;
+    background-color: aquamarine;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.dalam1{
+    background-color: green;
+    padding: 10px;
+    margin: 5px;
+}
+
+.dalam2{
+    background-color: green;
+    padding: 10px;
+    margin: 5px;
+}
+
+.dalam1 .dalam2{
+    border: 5px solid black;
+}
+
+.judul{
+    color: blue;
+}
+
+.utama{
+    background-color: blueviolet;
+    max-width: 300px;
+
+}
+.utama p{
+    color: wheat;
+    text-align: justify;
+    padding: 30px;
+    overflow: scroll;
+}
+
+.subUtama{
+    display: visible;
+    max-width: 250px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

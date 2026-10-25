@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.kepala-situs {
+    background-color: #f1f0d1;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo-situs {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.teks-situs h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.teks-situs h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navigasi-utama {
+    background-color: #000000;
+    padding: 10px 20px;
+}
+
+.menu-navigasi {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+.isi-halaman {
+    padding: 25px 20px;
+}
+
+.judul-halaman {
+    color: purple;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.sub-title{
+    color: gold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.deskripsi{
+    color: red;
+    font-size: 15px;
+}

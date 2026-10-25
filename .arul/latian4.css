@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    padding: 0 0 40px 0;
+}
+
+.kepala-halaman {
+    background-color: #d6d6d6;
+    color: #6a1b9a;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.wadah-berita {
+    background-color: #a9c6e8;
+    max-width: 360px;
+    margin: 0 auto 25px auto;
+    padding: 20px;
+}
+
+.tajuk-berita {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.identitas-berita {
+    font-size: 12px;
+    font-style: italic;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.nama-penulis {
+    color: #c2410c;
+    text-decoration: none;
+}
+
+.waktu-terbit {
+    color: #c2410c;
+}
+
+.isi-berita {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.tautan-selengkapnya {
+    font-size: 12px;
+    font-style: italic;
+    color: #0000ee;
+    text-decoration: underline;
+}

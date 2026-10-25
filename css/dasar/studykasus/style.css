@@ -1,0 +1,138 @@
+/* Index */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Beranda */
+
+.judul{
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.judul a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: green;
+   
+}
+
+.header{
+    display: flex;
+    background-color: bisque;
+    padding: 10px;  
+}
+
+.logo img{
+    height: 100px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    padding: 10px;
+    margin: 0px auto;
+    gap: 40px;
+    background-color: black;
+}
+
+.konten{
+    max-width: 600px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+/* Buku */
+
+.Daftar{
+    background-color: green;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+    max-width:  680px;
+}
+
+table img{
+    height: 150px;
+}
+
+table{
+    max-width: 700px;
+    max-height: 500px;
+    padding: 10 px;
+    margin: 10px auto;
+    border-color: white;
+}
+
+th,td{
+    background-color: greenyellow;
+
+    margin: 0px auto;
+    padding: 10px;
+}
+
+th{
+    background-color: goldenrod;
+}
+
+/* Kontak */
+.kontak{
+    text-align: center;
+}
+
+form{
+    padding: 5px;
+    gap: 10px;
+}
+
+.tanya{
+    width: 300px;
+    height: 150px;
+}
+
+label{
+    text-align: center;
+    flex-wrap: wrap;
+    display: block;
+    padding: 20px;
+}
+.nama{
+    width: 300px;
+}
+
+
+.h1-kontak{
+    text-align: center;
+}
+
+button{
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(39, 190, 54);
+    color: bisque;
+    font-weight: bolder;
+}
+
+
+
